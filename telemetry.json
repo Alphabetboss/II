@@ -1,0 +1,31 @@
+{
+  "ts": "2026-03-01T07:14:15.380939Z",
+  "telemetry": {
+    "humidity": 50.0,
+    "temperature_c": 25.0,
+    "temperature_f": 77.0,
+    "soil_moisture_pct": 25.380886793136597,
+    "pressure_psi": 45.0,
+    "sensor_fault": false,
+    "mock": true,
+    "sensor_sources": {
+      "dht": "mock",
+      "moisture": "digital",
+      "pressure": "mock"
+    }
+  },
+  "health": {
+    "greenness_score": 0.5,
+    "water_flag": false,
+    "dry_flag": false,
+    "yellow_flag": false,
+    "brown_flag": false,
+    "summary": "No camera frame available.",
+    "remedy": "Check camera wiring or camera URL before relying on vision automation.",
+    "raw": {
+      "error": "no_frame"
+    }
+  },
+  "people": null,
+  "decision": null
+}
